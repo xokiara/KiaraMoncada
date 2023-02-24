@@ -13,7 +13,7 @@ namespace KiaraMoncada
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new PrimerFormulario());
+            Application.Run(new Menu());
         }
     }
 }
