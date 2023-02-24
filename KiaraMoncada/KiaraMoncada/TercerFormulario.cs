@@ -29,7 +29,7 @@ namespace KiaraMoncada
                 {
                     NumerosListBox.Items.Add("Moncada");
                 }
-                else if (i % 3 == 0 && i % 5 == 0)
+                else if (i % 3 == 0 & i % 5 == 0)
                 {
                     NumerosListBox.Items.Add("Kiara Moncada");
                 }
