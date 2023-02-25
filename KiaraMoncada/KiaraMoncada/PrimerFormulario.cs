@@ -24,7 +24,7 @@ namespace KiaraMoncada
             for (int i = 1; i <= meses; i++)
             {
                 //Calcular el interés de mes actual
-                double CantidadInteres = capital * tasaInteres * meses;
+                double CantidadInteres = capital * tasaInteres;
 
                 //Agregar mes y el interés a la ListBox
                 string nombreDeMes = CultureInfo.CurrentCulture.DateTimeFormat.GetMonthName(i);
